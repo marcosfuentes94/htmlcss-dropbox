@@ -13,13 +13,96 @@ RESET
  */
 
  body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
  }
  
  .container{
     max-width: 1200px;
     margin: 0 auto;
  }
+
+ /* 
+ 
+   HEADER
+ 
+ */
+
+
+ header {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 50px;
+   background-color: #FFFFFF;
+   color: white;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+ }
+ 
+ .logo img {
+   display: flex;
+   align-items: center;
+   height: 18px;
+ }
+
+ 
+ nav ul {
+   display: flex;
+   list-style: none;
+ }
+ 
+ nav li {
+   margin-left: 20px;
+ }
+ 
+ nav a {
+   color: black;
+   text-decoration: none;
+   font-size: 12px;
+ }
+
+ .container{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+ }
+
+ .supporto-accesso {
+   display: flex;
+   align-items: end;
+ }
+ 
+ .supporto-accesso a {
+   color: black;
+   text-decoration: none;
+   font-size: 12px;
+   margin-left: 10px;
+ }
+
+ .button-inizia{
+   background:#317EFF;
+   border-radius:1px;
+   padding:5px 18px;
+   color: #ffffff;
+   display:inline-block;
+   font: 12px;
+   text-align:center;
+   margin-right: 10px;
+ }
+
+ /* 
+ 
+ FINE HEADER
+ 
+ */
+
+
+
 
  /* DEBUG */
 .debug{

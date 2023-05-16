@@ -16,11 +16,6 @@ RESET
     font-family: 'Open Sans', sans-serif;
  }
  
- .container{
-    max-width: 1200px;
-    margin: 0 auto;
- }
-
  /* 
  
    HEADER
@@ -32,7 +27,7 @@ RESET
    display: flex;
    justify-content: space-around;
    align-items: center;
-   height: 50px;
+   height: 10vh;
    background-color: #FFFFFF;
    color: white;
    position: fixed;
@@ -63,7 +58,7 @@ RESET
    font-size: 12px;
  }
 
- .container{
+ .header-container{
     max-width: 100%;
     margin: 0 auto;
     display: flex;
@@ -85,7 +80,7 @@ RESET
  }
 
  .button-inizia{
-   background:#317EFF;
+   background:#0061ff;
    border-radius:1px;
    padding:5px 18px;
    color: #ffffff;
@@ -102,10 +97,126 @@ RESET
  */
 
 
+ /* 
+ 
+ MAIN
+ 
+ */
+
+ h1{
+
+   font-size: 3.5em;
+   font-weight: 800;
+
+}
+
+.my-row-1{
+   height: 75vh;
+   width: 100%;
+   margin: 0 auto;
+   background-color: #b4d0e7;
+   margin-top: 10vh;
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+}
+
+.container-row-1{
+   padding-top: 50px;
+   width: 55%;
+   height: 40%;
+   margin: 0 auto;
+   text-align: left;
+}
+
+.p-section-1 {
+   font-size: 12px;
+   font-weight: 500;
+   padding-top: 30px;
+   width: 16%;
+   height: 31%;
+   margin: 0 auto;
+   text-align: left;
+   margin: 0 auto;
+   position: absolute;
+   top: 51%;
+   left: 30.5%;
+   transform: translate(-50%, -50%);
+
+}
+.img-section-1{
+
+   /* padding-top: 30px; */
+   width: 40%;
+   height: 70%;
+   position: absolute;
+   top: 76%;
+   left: 60%;
+   transform: translate(-50%, -50%);
+
+}
+
+.button-section-1{
+
+   background:#0061ff;
+   font-weight: 400;
+   border-radius:1px;
+   padding:8px 10px;
+   color: #ffffff;
+   display:inline-block;
+   font-size: 12px;
+   text-align:center;
+   position: absolute;
+   top: 68%;
+   left: 27.8%;
+   transform: translate(-50%, -50%);
+
+   
+
+}
+.p-section-1-2{
+
+   font-size: 12px;
+   font-weight: 500;
+   padding-top: 30px;
+   width: 16%;
+   height: 31%;
+   text-align: left;
+   margin: 0 auto;
+   position: absolute;
+   top: 85%;
+   left: 30.5%;
+   transform: translate(-50%, -50%);
+}
+.icon-section-1{
+   font-size: 12px;
+   font-weight: 800;
+   padding-top: 30px;
+   width: 16%;
+   height: 31%;
+   margin: 0 auto;
+   text-align: left;
+   position: absolute;
+   top: 95%;
+   left: 30.5%;
+   transform: translate(-50%, -50%);
+}
 
 
  /* DEBUG */
-.debug{
+ .header-container{
+
+   /* background-color: aquamarine; */
+}
 
 
+
+.my-row-1{
+
+
+}
+
+.container-row-1{
+
+   /* background-color: blueviolet; */
 }

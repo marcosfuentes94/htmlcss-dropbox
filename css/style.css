@@ -366,7 +366,7 @@ a{
 .full-enterprise{
 
    width: 782px;
-   height: 250px;
+   height: 200px;
    border: 1px solid rgba(96, 113, 115, 0.852);
    margin-left: 150px;
    margin-top: 30px;
@@ -397,71 +397,49 @@ a{
    margin-right: 10px;
    cursor: pointer;
    position: absolute;
-   top: 40px;
+   top: 55px;
    right: 10px;
 }
 
 
    /* FINE SECONDA SEZIONE */
 
-   
+
+   /* INIZIO TERZA SEZIONE */
 
 
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* DEBUG */
- .header-container{
-
-   /* background-color: aquamarine; */
+.my-row-3{
+display: flex;
+justify-content: center;
+height: 75vh;
 }
 
-
-
-.my-row-2{
-
-   /* background-color: #d1310d; */
-
-
-}
-
-.container-row-1{
-
-   /* background-color: blueviolet; */
-}
-
-.container-row-2{
-
-   /* background-color: chartreuse; */
-
-}
-
-.my-col-1{
-   border: solid black 1px;
-   background-color: chartreuse;
-
-}
-.subs-column{
-   
+.partner-img{
+   width: 500px;
+   height: 450px;
    
 
 }
+
+.partner-2{
+   width: 300px;
+   position: relative;
+   
+}
+.button-partner{
+   background:white;
+   border:1px solid black;
+   padding:5px 18px;
+   color: black;
+   display:inline-block;
+   font-size: small;
+   text-align:center;
+   margin-right: 10px;
+   cursor: pointer;
+   position: absolute;
+   top: 230px;
+   right: 130px;
+}
+
+   /* FINE TERZA SEZIONE */
+

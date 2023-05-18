@@ -493,7 +493,6 @@ height: 75vh;
 
       font: size 1.5em; 
       font-weight: 700;
-      /* margin-top: 100px; */
 
 
 
@@ -701,3 +700,58 @@ background-color: #0d2481;
 }
 
 /* FINE QUINTA SEZIONE */
+
+.container-sesta{
+
+   height: 600px;
+   width: 1000px;
+
+
+}
+
+
+.p-sesta{
+
+   font-size: 2em; 
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   padding-top: 130px;
+   padding-left: 155px;
+   margin-bottom: 50px;
+
+
+
+ }
+ .p-sesta-1{
+
+   font-size: 0.8em; 
+   font-weight: 700;
+   display: flex;
+   justify-content: end;
+   padding-top: 20px;
+   padding-bottom: 30px;
+   margin-right: 50px;
+   position: relative;
+
+
+
+ }
+
+
+.hr-sesta{
+
+   width: 700px;
+   margin-left: 410px;
+
+
+}
+.chevron{
+display: flex;
+position: absolute;
+top: 20px;
+right: -150px;
+
+
+}
+

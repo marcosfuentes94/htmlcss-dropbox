@@ -455,15 +455,68 @@ height: 75vh;
       width: 1000px;
       margin-left: 265px;
       margin-top: 50px;
+      margin-bottom: 100px;
     }
 
     .column-container-4{
       width: 250px;
       height: 350px;
-      background-color: #eaeaea;
       border-radius: 5px;
       display: flex;
       justify-content: center;
       align-items: center;
       font-size: 20px;
     }
+
+    .title-scection-4{
+      display: flex;
+      font-size: 2em;
+      font-weight: 700;
+      margin-top: 50px;
+      justify-content: center;
+      margin-right: 100px;
+
+    }
+
+    .title-scection-4-1{
+      display: flex;
+      font-size: 2em;
+      font-weight: 700;
+      margin-top: 50px;
+      justify-content: center;
+      margin-right: 420px;
+      margin-top: 100px;
+
+    }
+    
+    .p-section-4{
+
+      font: size 1.5em; 
+      font-weight: 700;
+      /* margin-top: 100px; */
+
+
+
+    }
+
+    .p-section-4-1{
+
+      font-size: 12px;
+      margin-top: 30px;
+
+    }
+
+    .business-pic{
+
+      height: 200px;
+      width: 250px;
+
+    }
+    
+    .business-link{
+
+      margin-right: 660px;
+
+    }
+
+    /* FINE QUARTA SEZIONE */
